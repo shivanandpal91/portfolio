@@ -1,0 +1,26 @@
+[
+  {
+    "role": "B.Tech. in Computer Science and Engineering",
+    "organisation": "Motilal Nehru National Institute of Technology Allahabad",
+    "startDate": "2022",
+    "endDate": "Present",
+    "experiences": ["Reg. No.: 20223247", "CPI: 8.73 (Till 6th Semester)"],
+    "imageSrc": "history/mnnit.png"
+  },
+  {
+    "role": "Central Board of Secondary Education",
+    "organisation": "Sunbeam School Varuna Jail Rd Varanasi UP",
+    "startDate": "June, 2021",
+    "endDate": "June, 2021",
+    "experiences": ["Senior Secondary (XII)", "Percentage: 91.6%"],
+    "imageSrc": "history/sunbeam.png"
+  },
+  {
+    "role": "Central Board of Secondary Education",
+    "organisation": "Central Hindu Boys SSS BHU Kamachha Varanasi UP",
+    "startDate": "June, 2019",
+    "endDate": "June, 2019",
+    "experiences": ["Secondary (X)", "Percentage: 95.4%"],
+    "imageSrc": "history/cbhss.png"
+  }
+]
