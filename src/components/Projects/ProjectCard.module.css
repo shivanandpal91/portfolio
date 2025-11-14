@@ -3,59 +3,86 @@
 .container {
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
-  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
-  max-width: 345px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #4a5bb3 0%, #0f1e3c 100%);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+  padding: 28px 28px;
+  max-width: 360px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover effect */
+.container:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 32px rgba(0, 0, 0, 0.45);
 }
 
 .image {
-  margin-bottom: 26px;
+  margin-bottom: 22px;
+  border-radius: 14px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
 }
 
 .title {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .description {
-  margin-top: 6px;
-  font-size: 25px;
+  margin-top: 10px;
+  font-size: 18px;
   font-weight: 400;
+  line-height: 1.45;
+  opacity: 0.95;
 }
 
+/* Skills tag chips */
 .skills {
   width: 100%;
-  margin-top: 14px;
+  margin-top: 16px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 10px;
   list-style: none;
 }
 
 .skill {
-  font-size: 25px;
-  font-weight: 400;
-  border-radius: 100px;
-  background: var(--color-dark);
-  padding: 2px 22px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 6px 16px;
+  backdrop-filter: blur(4px);
 }
 
+/* Links row */
 .links {
   width: 100%;
   margin-top: 26px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
+/* Button style */
 .link {
   text-decoration: none;
-  color: var(--color-text);
-  font-size: 30px;
+  color: white;
+  font-size: 16px;
   font-weight: 600;
-  border-radius: 100px;
-  background: var(--color-primary);
-  padding: 1px 22px;
+  border-radius: 50px;
+  padding: 8px 20px;
+  background: linear-gradient(90deg, #6da7ff, #4e8bff);
+  box-shadow: 0 4px 12px rgba(0, 115, 255, 0.3);
+  transition: all 0.25s ease;
+}
+
+.link:hover {
+  background: linear-gradient(90deg, #84b7ff, #5a99ff);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 115, 255, 0.45);
 }

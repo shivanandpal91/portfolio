@@ -1,26 +1,51 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "CollabBoard",
+    "imageSrc": "projects/collab.png",
+    "description": "A real-time collaborative whiteboard app for team communication with drawing tools, chat, live audio/video, and synced rooms.",
+    "skills": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "Tailwind",
+      "Socket.IO",
+      "PeerJS",
+      "Rough.js",
+      "Render"
+    ],
+    "demo": "https://your-collabboard-live-link.com",
+    "source": "https://github.com/yourusername/collabboard"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "DigiAsset",
+    "imageSrc": "projects/digiasset.png",
+    "description": "A decentralized platform for minting, buying, and selling Digital Assets with MetaMask integration and IPFS storage.",
+    "skills": [
+      "React",
+      "Tailwind CSS",
+      "Solidity",
+      "Hardhat",
+      "IPFS",
+      "MetaMask",
+      "Vercel"
+    ],
+    "demo": "https://your-digiasset-live-link.com",
+    "source": "https://github.com/yourusername/digiasset"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "JobPortal",
+    "imageSrc": "projects/jobportal.png",
+    "description": "A full-stack platform connecting job seekers and employers with job posting, filtering, CRUD operations, and secure authentication.",
+    "skills": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "JWT",
+      "Vercel"
+    ],
+    "demo": "https://your-jobportal-live-link.com",
+    "source": "https://github.com/yourusername/jobportal"
   }
 ]

@@ -1,3 +1,4 @@
+
 import React from "react";
 
 import styles from "./About.module.css";
@@ -10,40 +11,45 @@ export const About = () => {
       <div className={styles.content}>
         <img
           src={getImageUrl("about/aboutImage.png")}
-          alt="Me sitting with a laptop"
+          alt="Me working on a laptop"
           className={styles.aboutImage}
         />
+
         <ul className={styles.aboutItems}>
+
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <img src={getImageUrl("about/cursorIcon.png")} alt="Frontend icon" />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                I build responsive, user-friendly interfaces using React.js and Tailwind CSS. 
+                I focus on clean UI, performance, and smooth user experience across devices.
               </p>
             </div>
           </li>
+
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <img src={getImageUrl("about/serverIcon.png")} alt="Backend icon" />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                I develop scalable backend systems with Node.js, Express.js, and MongoDB. 
+                I have built full-stack applications with authentication, CRUD APIs, and real-time features.
               </p>
             </div>
           </li>
+
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/cursorIcon.png")} alt="Blockchain icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Blockchain & Web3 Developer</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                Experienced in building decentralized apps using Solidity, Hardhat, MetaMask, and IPFS. 
+                Created an NFT marketplace deployed on the Sepolia testnet with secure wallet integration.
               </p>
             </div>
           </li>
+
         </ul>
       </div>
     </section>

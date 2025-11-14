@@ -1,0 +1,82 @@
+@import "../../vars.css";
+
+/* SAME CONTAINER AS EDUCATION + ABOUT */
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: var(--color-text);
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.75px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* SKILLS WRAP HORIZONTALLY */
+.skillsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+}
+
+/* MATCH EDUCATION ITEM STYLE */
+.skillCard {
+  background: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 20px;
+  padding: 25px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  transition: 0.3s;
+}
+
+.skillCard:hover {
+  background-size: 120% 120%;
+  transform: translateY(-5px);
+}
+
+/* ICON */
+.icon {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+}
+
+/* TEXT */
+.skillCard p {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .skillCard {
+    padding: 18px;
+  }
+}
